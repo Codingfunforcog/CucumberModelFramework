@@ -1,6 +1,7 @@
 Feature: Pallavi's Google search
-@pallavi
-Scenario: Pallavi search yahoo
-Given Pallavi opens yahoo home page
+
+@pallavi1
+Scenario: Pallavi search google
+Given Pallavi opens google home page
 And Pallavi type hindi songs in search
 Then Pallavi should get seach results
